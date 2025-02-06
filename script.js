@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const marker = L.marker([35.46885, 139.52191]).addTo(map);
     var name="はるな";
     var date=new Date();
-    var datetime=date.getMonth()+"月"+date.getDate()+"日"+date.getHours()+':'+date.getMinutes();
+   // var datetime=date.getMonth()+"月"+date.getDate()+"日"+date.getHours()+':'+date.getMinutes();
+   var datetime="1月1日12:00";
     marker.bindPopup(name + '<b>さんはここにいます</b><br>'+datetime).openPopup();
 })
